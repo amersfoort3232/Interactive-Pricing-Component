@@ -49,14 +49,19 @@
           <p>/ month</p>
         </div>
 
-        <div class="discount">
-          <p>Monthly Billing</p>
-          <label class="switch">
-            <input type="checkbox" />
-            <span class="slider round"></span>
-          </label>
-          <p>Yearly Billing <span>-25%</span></p>
-        </div>
+        <form class="discount">
+          <fieldset>
+            <label>Monthly Billing</label>
+            <span class="switch-wrapper">
+              <input class="radio" type="radio" name="billing" id="monthly" />
+              <input class="radio" type="radio" name="billing" id="yearly" />
+              <span class="switch-background"></span>
+              <span class="switch-button"></span>
+            </span>
+            <label>Yearly Billing</label>
+            <span class="discount-rate">-25%</span>
+          </fieldset>
+        </form>
 
         <div class="features-section">
           <ul class="features">
