@@ -212,6 +212,8 @@ fieldset {
   width: 100%;
   z-index: 2;
   opacity: 0;
+  cursor: pointer;
+  transform: scale(1.5);
 }
 
 #yearly:checked ~ .switch-button {
